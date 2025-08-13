@@ -1,0 +1,14 @@
+
+import java.util.*;
+public class cylinder{
+    public static void main(String[] args){
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Enter Radius Of Cylinder: ");
+	int  radius=sc.nextInt();
+	System.out.println("Enter Height Of Cylinder: ");
+	int  height=sc.nextInt();
+	Double result=Math.PI*radius*radius*height;
+	System.out.println("Volume of Cylinder is :"+result);
+
+    }
+}
